@@ -6,21 +6,23 @@
     <title>Test</title>
 </head>
 <body>
-    <form id="login-form" class="hidden">
-        <input required maxlength="15" type="text" placeholder="What is your name?" />
-        <input type="submit" value="Log in" />
-    </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
+    <div>
+        <form id="login-form" class="hidden">
+            <input required maxlength="15" type="text" placeholder="What is your name?" />
+            <input type="submit" value="Log in" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1><img src="img/login.gif" alt="running!" width="" height="100px">
+        <h2 id="clock">00:00:00</h2>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
     <form id="todo-form">
         <input type="text" placeholder="Write a To Do and Press Enter" required />
     </form>
     <ul id="todo-list"></ul>
     <div id="quote">
-        <span></span>
-        <span></span>
-    </div>
-    <div id="weather">
         <span></span>
         <span></span>
     </div>
