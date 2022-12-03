@@ -6,26 +6,30 @@
     <title>Test</title>
 </head>
 <body>
-    <div>
-        <form id="login-form" class="hidden">
-            <input required maxlength="15" type="text" placeholder="What is your name?" />
-            <input type="submit" value="Log in" />
-        </form>
-        <h1 id="greeting" class="hidden"></h1><img src="img/login.gif" alt="running!" width="" height="100px">
-        <h2 id="clock">00:00:00</h2>
-        <div id="weather">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required />
+    <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?" />
+        <input type="submit" value="Log in" />
     </form>
-    <ul id="todo-list"></ul>
+    <h1 id="greeting" class="hidden"></h1>
+
+    <h2 id="clock">00:00:00</h2>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
     <div id="quote">
         <span></span>
         <span></span>
     </div>
+
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+
+    <ul id="todo-list"></ul>
+
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>

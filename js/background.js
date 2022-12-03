@@ -8,7 +8,8 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 src = `img/${chosenImage}`;
 
 //document.body.appendChild(bgImage);
-document.body.style.background = `url(${src}) no-repeat`;
+//document.body.style.background = `url(${src}) no-repeat center`;
+document.body.style.background = `#16453e no-repeat center`;
 document.body.style.backgroundSize = "cover";
 document.body.style.width = "100%";
 document.body.style.height = "auto";
